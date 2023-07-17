@@ -1,9 +1,9 @@
-# import random
-# from dataclasses import dataclass, field
-# from typing import TypeAlias, TypedDict
-#
-# from faker import Faker
-#
+import random
+from dataclasses import dataclass, field
+from typing import TypeAlias, TypedDict
+
+from faker import Faker
+
 # T_GROUP_NAME: TypeAlias = str
 # T_GROUP_NAMES: TypeAlias = list[T_GROUP_NAME]
 #
