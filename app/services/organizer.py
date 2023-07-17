@@ -3,6 +3,9 @@ from app.services.human import T_HUMANS
 
 
 def organize_data(humans: T_HUMANS):
+    """
+    Use default-dict object to organized data
+    """
     grouped_data = defaultdict(list)
 
     for item in humans:
