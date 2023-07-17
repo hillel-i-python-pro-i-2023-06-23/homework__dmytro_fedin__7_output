@@ -12,4 +12,3 @@ def main():
     organized_data = organize_data(humans=group_members)
     output = get_formatted_output(data=organized_data)
     print(output)
-

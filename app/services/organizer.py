@@ -1,4 +1,4 @@
-from app.config import T_HUMANS
+from app.services.human import T_HUMANS
 
 
 def organize_data(humans: T_HUMANS):
