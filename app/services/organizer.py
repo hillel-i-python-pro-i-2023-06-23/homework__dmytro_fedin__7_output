@@ -1,5 +1,4 @@
 from collections import defaultdict
-
 from app.config import T_GROUP
 from app.services.human import T_HUMANS
 
