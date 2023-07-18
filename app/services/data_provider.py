@@ -2,7 +2,8 @@ import random
 
 from dataclasses import dataclass, field
 from faker import Faker
-from app.services.human import Human, T_GROUP_NAMES, T_GROUP_NAME, T_HUMANS
+from app.services.human import Human, T_HUMANS
+from app.config import T_GROUP_NAME, T_GROUP_NAMES
 
 
 @dataclass
