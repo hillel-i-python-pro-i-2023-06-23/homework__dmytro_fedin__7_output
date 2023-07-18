@@ -1,4 +1,7 @@
-def get_formatted_output(data) -> str:
+from app.config import T_GROUP
+
+
+def get_formatted_output(data: T_GROUP) -> str:
     """
     Get output string, that can be used to print in console.
     """

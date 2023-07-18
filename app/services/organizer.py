@@ -1,10 +1,7 @@
-import collections
 from collections import defaultdict
-from typing import TypeAlias
 
+from app.config import T_GROUP
 from app.services.human import T_HUMANS
-
-T_GROUP: TypeAlias = collections.defaultdict[list[str]]
 
 
 def organize_data(humans: T_HUMANS) -> T_GROUP:
