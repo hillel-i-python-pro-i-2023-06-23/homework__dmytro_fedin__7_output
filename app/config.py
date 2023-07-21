@@ -1,5 +1,6 @@
-import pathlib
-from typing import Final
+import collections
+from typing import TypeAlias
 
-# Set directories to get services.
-ROOT_DIR: Final[pathlib.Path] = pathlib.Path(__file__).parents[1]
+T_GROUP: TypeAlias = collections.defaultdict[list[str]]
+T_GROUP_NAME: TypeAlias = str
+T_GROUP_NAMES: TypeAlias = list[T_GROUP_NAME]

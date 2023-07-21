@@ -23,9 +23,6 @@ RUN pip install --upgrade pip && \
 COPY --chown=${USER} ./run.py run.py
 COPY --chown=${USER} ./app app
 COPY --chown=${USER} app/services services
-COPY --chown=${USER} ./source source
-#COPY --chown=${USER} ./logs logs
-#COPY --chown=${USER} ./output output
 
 USER ${USER}
 
